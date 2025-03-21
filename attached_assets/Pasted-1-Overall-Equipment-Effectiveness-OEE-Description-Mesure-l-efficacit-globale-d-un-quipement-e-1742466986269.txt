@@ -1,0 +1,94 @@
+1. Overall Equipment Effectiveness (OEE)
+Description : Mesure l’efficacité globale d’un équipement en prenant en compte la disponibilité, la performance et la qualité.
+Formule :
+OEE = Disponibilité × Performance × Qualité
+où
+Disponibilité = (Temps de fonctionnement réel / Temps de production planifié)
+Performance = (Production réalisée / Production théorique possible)
+Qualité = (Unités bonnes / Total des unités produites)
+Données requises :
+Temps de production planifié
+Temps de fonctionnement effectif
+Nombre d’unités produites
+Nombre d’unités conformes
+Source : Concepts largement développés dans insightsoftware cite
+2. Rendement (Yield) et First Pass Yield (FPY)
+Description :
+Production Yield indique le pourcentage de produits conformes par rapport au total produit.
+First Pass Yield mesure le pourcentage de produits qui passent la production sans nécessiter de retouches ou de retravail.
+Formule :
+Yield (%) = (Unités conformes / Total des unités produites) × 100
+FPY (%) = (Unités acceptables dès la première production / Total des unités produites) × 100
+Données requises :
+Nombre total d’unités produites
+Nombre d’unités conformes (et, pour le FPY, nombre d’unités sans retouches)
+Source : Ces indicateurs sont détaillés dans plusieurs articles dont Tulip cite et merca.team cite
+3. Temps de Cycle et Productivité
+Description :
+Le temps de cycle représente le temps moyen nécessaire pour produire une unité.
+La productivité peut être évaluée en fonction de la quantité produite par unité de temps ou par employé.
+Formule :
+Temps de cycle = (Temps total de production / Nombre d’unités produites)
+Productivité = (Nombre d’unités produites / Temps ou nombre d’employés)
+Données requises :
+Temps total de production
+Nombre total d’unités produites
+(Optionnel : nombre d’employés ou temps de travail effectif)
+Source : Méthodologies exposées par insightsoftware cite et fr-techteam cite
+4. Taux de Rebuts et Coûts de Non-Qualité
+Description :
+Mesure le pourcentage d’unités non conformes (ou rejetées) et évalue l’impact financier des défauts de production.
+Formule :
+Taux de rebuts (%) = (Nombre d’unités défectueuses / Nombre total d’unités produites) × 100
+Coût de non-qualité = Somme des coûts liés aux défauts (retraitement, rebut, garantie…)
+Données requises :
+Nombre d’unités produites
+Nombre d’unités rejetées ou nécessitant un retraitement
+Coûts associés aux défauts de production
+Source : Développé dans les analyses de Tulip cite et proactioninternational cite
+5. Disponibilité et Taux d’Utilisation des Équipements
+Description :
+Ces indicateurs mesurent la part du temps durant lequel l’équipement est opérationnel par rapport au temps planifié.
+Formule :
+Disponibilité (%) = (Temps de fonctionnement effectif / Temps de production planifié) × 100
+Taux d’utilisation = (Temps de fonctionnement effectif / Temps total disponible) × 100
+Données requises :
+Temps de production planifié
+Temps effectif de fonctionnement
+Temps total disponible (si différent du temps planifié)
+Source : Référencé dans les ressources de merca.team cite et fr-techteam cite
+6. Taux de Livraison à Temps et Délais de Commande
+Description :
+Évalue l’efficacité du processus logistique et la capacité à répondre aux engagements clients.
+Formule :
+Taux de livraison à temps (%) = (Nombre de livraisons effectuées dans les délais / Nombre total de livraisons) × 100
+Délai de commande = Temps moyen entre la réception de la commande et la livraison finale
+Données requises :
+Nombre total de commandes/livraisons
+Nombre de livraisons à temps
+Données temporelles (dates/horaires de commande et livraison)
+Source : Concepts abordés dans proactioninternational cite
+7. Coûts de Maintenance par Unité Produite
+Description :
+Mesure l’impact des coûts de maintenance sur la production, permettant d’optimiser les dépenses opérationnelles.
+Formule :
+Coût de maintenance par unité = Coût total de maintenance / Nombre d’unités produites
+Données requises :
+Coût total des activités de maintenance
+Volume de production (nombre d’unités produites)
+Source : Indicateur détaillé dans plusieurs ressources dont insightsoftware cite
+8. Autres Indicateurs Complémentaires
+Selon les articles consultés, d’autres ICP peuvent être utilisés pour une vision complète de la performance industrielle :
+
+Inventaire (Stock) et Rotation des Stocks :
+Formule : Rotation des stocks = Coût des biens vendus / Stock moyen
+Données requises : Coût des biens vendus et niveau moyen des stocks.
+Sécurité et Accidents de Travail :
+Formule (exemple d’indice de fréquence) : (Nombre d’accidents / Total d’heures travaillées) × 1 000 000
+Données requises : Nombre d’accidents et total des heures travaillées.
+Taux d’Absence :
+Formule : (Nombre d’heures d’absence / Nombre total d’heures planifiées) × 100
+Données requises : Données de présence et d’absence des employés.
+Retour sur Investissement (ROI) des Projets d’Amélioration :
+Formule : ROI = (Bénéfices nets issus du projet / Coût total du projet) × 100
+Données requises : Coût du projet et bénéfices obtenus.
